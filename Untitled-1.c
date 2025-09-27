@@ -31,12 +31,12 @@ main()
     int atp=4;
     txt("=====================================================", atp);
     txt("\n      Ajuda de jorge\n\n", atp);
-    txt("Jorge � um homem cego ele precisa de ajuda\n", atp);
-    txt("O problema � que ele s� fala uma lingua, a da radicia��o\n", atp);
-    txt("as n�o h� problema, j� que voc� � o mestre em radicia��o\n", atp);
-    txt("Ir�o surgir os problemas e s� a resposta correta far� com que Jorge chegue em seguran�a\n", atp);
+    txt("Jorge é um homem cego ele precisa de ajuda\n", atp);
+    txt("O problema é que ele só fala uma lingua, a da radiciação\n", atp);
+    txt("as não há problema, já que você é o mestre em radiciação\n", atp);
+    txt("Irão surgir os problemas e só a resposta correta fará com que Jorge chegue em segurança\n", atp);
     txt("Boa sorte\n\n", atp);
-    txt("Pressione [enter] para come�ar: ", atp);
+    txt("Pressione [enter] para começar: ", atp);
     enter();
 
 }
