@@ -31,7 +31,7 @@ public class Blind : MonoBehaviour
     {
         if (andando)
         {
-            // Usa transform.forward para sempre andar na direção que o personagem está olhando
+  
             rb.linearVelocity = new Vector2(transform.right.x * velocidadeDeMovimento, rb.linearVelocity.y);
         }
     }
@@ -87,4 +87,5 @@ public class Blind : MonoBehaviour
     }
 
 }
+
 
