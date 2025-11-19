@@ -13,7 +13,6 @@ public class MenuController : MonoBehaviour
  
     public void SairDoJogo()
     {
-        Debug.Log("Saindo do jogo...");
         Application.Quit();
 
         
@@ -21,4 +20,5 @@ public class MenuController : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false;
         #endif
     }
+
 }
