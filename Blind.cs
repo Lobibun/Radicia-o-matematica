@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class blind : MonoBehaviour
+public class Blind : MonoBehaviour
 {
     
    [Header("Configurações")]
@@ -87,3 +87,4 @@ public class blind : MonoBehaviour
     }
 
 }
+
