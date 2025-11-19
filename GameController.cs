@@ -7,7 +7,7 @@ using System.Linq;
 using UnityEngine.SceneManagement; 
 using System.Collections;
 
-public class GameManager : MonoBehaviour
+public class GameController : MonoBehaviour
 {
   
     [Header("Painéis da UI")]
@@ -409,4 +409,5 @@ public void PausarJogo()
         painelAjuda.SetActive(false);
         painelPause.SetActive(true);
     }
+
 }
