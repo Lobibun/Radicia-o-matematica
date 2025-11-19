@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Cego : MonoBehaviour
+public class blind : MonoBehaviour
 {
     
    [Header("Configurações")]
@@ -85,4 +85,5 @@ public class Cego : MonoBehaviour
         transform.position = posicaoInicial;
         podeInteragir = true;
     }
+
 }
